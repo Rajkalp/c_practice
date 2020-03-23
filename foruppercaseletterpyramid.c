@@ -1,6 +1,5 @@
 #include<stdio.h>
 void main(){
-	int i, j;
 	char a, b;
 	for (int a = 'A'; a <= 'D'; a++)
 	{
