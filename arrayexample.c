@@ -1,14 +1,16 @@
 // Display Array values on screen
 #include<stdio.h>
 void main() {
-	int a[3];
-	a[0] = 23;
-	a[1] = 32;
-	a[2] = 12;
-	a[3] = 45;
-
-	for (int i = 0; i <= 3; ++i)
+	int a[5];
+	printf("Enter 5 Values to store in an array:\n");
+	for (int j = 0; j <= 4; j++)
 	{
-		printf("%d\n", a[i]);
+		scanf("%d", &a[j]);
+	}
+
+	printf("Values you entered are: ");
+	for (int i = 0; i <= 4; i++)
+	{
+		printf("%d,", a[i]);
 	}
 }
