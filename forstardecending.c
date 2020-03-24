@@ -1,23 +1,12 @@
 #include<stdio.h>
 void main(){
-	int i, j, k;
-	for (int i = 1; i <= 9; i++)
+	int i, j;
+	for (int i = 4; i >= 1; i--)
 	{
-		if ( i < 5)
+		for (int j = 1; j <= i; j++)
 		{
-			for (int j = 1; j <= i; j++)
-			{
-				printf("*");
-			}
-			printf("\n");
+			printf("%d", j);
 		}
-		else{
-			for (int k = 9; k >= i; k--)
-			{
-				printf("*");
-			}
-			printf("\n");
-		}
-		
+		printf("\n");
 	}
 }
