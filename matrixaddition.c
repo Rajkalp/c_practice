@@ -31,6 +31,7 @@ void main(){
 		}
 	}
 
+	printf("Addition gives: \n");
 	for (int y = 0; y <= 1; ++y)
 	{
 		for (int z = 0; z <= 1; ++z)
