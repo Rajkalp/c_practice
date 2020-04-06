@@ -11,6 +11,7 @@ void main(){
 	}
 	else{
 		while(1){
+			// ch == 0
 			if (ch == EOF)
 			{
 				printf("Done!!\n");
